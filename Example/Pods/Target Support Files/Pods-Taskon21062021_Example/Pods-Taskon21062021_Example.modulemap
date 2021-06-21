@@ -1,0 +1,6 @@
+framework module Pods_Taskon21062021_Example {
+  umbrella header "Pods-Taskon21062021_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

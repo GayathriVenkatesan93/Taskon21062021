@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E9FE224786F8C302C537953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E9FE224786F8C302C537953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4EBECA28585568C43D15EA05 /* Pods-Taskon21062021_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taskon21062021_Tests.release.xcconfig"; path = "Target Support Files/Pods-Taskon21062021_Tests/Pods-Taskon21062021_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5BFF4595AB93BE644C8CEB8C /* Pods_Taskon21062021_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taskon21062021_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4F7260DCD045F1711885DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C4F7260DCD045F1711885DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Taskon21062021_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskon21062021_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		71A61768A65FBAF6E6A38868 /* Pods-Taskon21062021_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taskon21062021_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Taskon21062021_Tests/Pods-Taskon21062021_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A583F90DFAD9FB19088DCCFB /* Pods_Taskon21062021_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taskon21062021_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B536283814B3DC19CC43D94A /* Pods-Taskon21062021_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taskon21062021_Example.release.xcconfig"; path = "Target Support Files/Pods-Taskon21062021_Example/Pods-Taskon21062021_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6F2DAA3754D0FA685A901EE /* Taskon21062021.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Taskon21062021.podspec; path = ../Taskon21062021.podspec; sourceTree = "<group>"; };
+		B6F2DAA3754D0FA685A901EE /* Taskon21062021.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Taskon21062021.podspec; path = ../Taskon21062021.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA73DCB9C81789BECC3F782E /* Pods-Taskon21062021_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taskon21062021_Example.debug.xcconfig"; path = "Target Support Files/Pods-Taskon21062021_Example/Pods-Taskon21062021_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				71A61768A65FBAF6E6A38868 /* Pods-Taskon21062021_Tests.debug.xcconfig */,
 				4EBECA28585568C43D15EA05 /* Pods-Taskon21062021_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Taskon21062021 {
+  umbrella header "Taskon21062021-umbrella.h"
+
+  export *
+  module * { export * }
+}

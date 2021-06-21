@@ -1,0 +1,22 @@
+{
+  "name": "Taskon21062021",
+  "version": "0.1.0",
+  "summary": "A short description of Taskon21062021.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gayathri-venkatesan/Taskon21062021",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gayathri-venkatesan": "vgayathribtech13@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gayathri-venkatesan/Taskon21062021.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Taskon21062021/Classes/**/*"
+}
