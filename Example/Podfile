@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Taskon21062021_Example' do
+  pod 'Taskon21062021', :path => '../'
+
+  target 'Taskon21062021_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
